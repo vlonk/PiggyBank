@@ -1,0 +1,37 @@
+.chart-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .chart {
+    width: 100%;
+  }
+  
+  /* x-axis (month labels) */
+  .chart .axis-x {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* y-axis (amount spent labels) */
+  .chart .axis-y {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Style the line on the chart */
+  .chart .line {
+    fill: none;
+    stroke: #3498db; /* Adjust the line color as needed */
+    stroke-width: 2;
+  }
+  
+  /* Style the points on the line */
+  .chart .point {
+    fill: #db7134; /* Adjust the point color as needed */
+    stroke: #fff;
+    stroke-width: 2;
+  }  
